@@ -1,0 +1,19 @@
+{
+  "name": "tmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node index.js"
+  },
+  "keywords": [],
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.2.0",
+    "babel-core": "6.2.1",
+    "babel-plugin-add-module-exports": "0.1.1",
+    "babel-preset-es2015": "6.1.18",
+    "babel-preset-stage-0": "6.1.18"
+  }
+}
