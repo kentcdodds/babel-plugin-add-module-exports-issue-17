@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "transpile": "npm run transpile:good && npm run transpile:bad",
+    "transpile:good": "babel good.js -o good.out.js",
+    "transpile:bad": "babel bad.js -o bad.out.js",
     "test": "babel-node index.js"
   },
   "keywords": [],
